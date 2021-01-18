@@ -54,3 +54,15 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+
+gem "csv"
+gem "pry"
+gem "pry-byebug"
+gem "httpclient"
+gem "json"
+gem "google_drive"
+gem "faraday"
+gem "oj"
+gem "activesupport"
+gem "timeout"

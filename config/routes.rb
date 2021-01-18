@@ -7,4 +7,8 @@ Rails.application.routes.draw do
   get 'users/show/:username' => 'users#show'
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
   get 'hello/helloworld', to: 'hello#helloworld'
+  get 'devices/index'
+  get 'devices/getinfo'
+  post 'devices' => 'devices#soracom'
 end
+
